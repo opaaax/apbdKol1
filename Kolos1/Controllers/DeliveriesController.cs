@@ -10,7 +10,7 @@ namespace Kolos1.Controllers;
 [ApiController]
 public class DeliveriesController : ControllerBase
 {
-    public readonly IDeliveryService _deliveryService;
+    private readonly IDeliveryService _deliveryService;
 
     public DeliveriesController(IDeliveryService deliveryService)
     {
