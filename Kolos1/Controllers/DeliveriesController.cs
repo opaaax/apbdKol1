@@ -37,7 +37,7 @@ public class DeliveriesController : ControllerBase
         try
         {
             await _deliveryService.PostDeliveryAsync(delivery);
-            return Ok();
+            return Created();
         }
         catch (NotFoundException e)
         {
