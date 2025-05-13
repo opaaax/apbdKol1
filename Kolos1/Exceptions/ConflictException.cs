@@ -1,4 +1,4 @@
-﻿namespace WebApplication1.Exceptions;
+﻿namespace Kolos1.Exceptions;
 
 public class ConflictException : Exception
 {
